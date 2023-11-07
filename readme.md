@@ -14,6 +14,7 @@ The tool and its creator are not responsible for improper use.
 * [Log in to your Discord account](https://discord.com) through the website.
 * Open the Dev Tools (CTRL + SHIFT + I) and go to the "console" category.
 * Copy and paste the code next to it
+
 <details>
 <summary>Click here to show</summary>
 
@@ -21,6 +22,7 @@ The tool and its creator are not responsible for improper use.
 (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
 ```
 </details>
+
 * Get your token and place it in utils/Config.json, under "Private Key."
 * Open the command prompt (cmd) inside the folder.
 * Type "npm install" and then "node ."
